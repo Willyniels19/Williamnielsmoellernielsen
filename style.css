@@ -61,7 +61,27 @@ main {
     margin-bottom: 110px;
 }
 
+    /* STANDARDIZED IMAGE SIZING */
+
 .work img {
+    display: block;
+    
+    width: 100%;
+    max-width: 800px;      /* Set your desired max width */
+    height: 500px;         /* Fixed height */
+    object-fit: cover;     /* Crops image to fit without distortion */
+    
+    margin-bottom: 15px;
+}
+
+/* For desktop - match your current 50% width but with fixed height */
+@media (min-width: 900px) {
+    .work img {
+        width: 50%;
+        height: 500px;
+        object-fit: cover;
+    }
+}
     display: block;
 
     width: 50%;
