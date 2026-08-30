@@ -14,7 +14,7 @@ body {
     /* image sizing for works: smaller on mobile, larger on desktop */
     --work-image-height-sm: 400px;
     --work-image-height-lg: 600px;
-    --work-image-bg: #f6f6f6;
+    --work-image-bg: white;
 }
 
 body {
