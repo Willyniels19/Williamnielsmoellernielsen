@@ -66,6 +66,7 @@ main {
 
 .work {
     margin-bottom: 20px;
+    max-width: 600px;
 }
 
 /* Make all images fit into a fixed-height box without cropping.
@@ -119,8 +120,8 @@ main {
 @media (min-width: 900px) {
 
     main {
-        padding-left: 12vw;
-        padding-right: 12vw;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .work img {
