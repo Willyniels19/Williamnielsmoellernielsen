@@ -68,27 +68,7 @@ main {
     margin-bottom: 110px;
 }
 
-/* Make all images fit into a fixed-height box without cropping.
-   Portrait and landscape images will be centered and scaled to fit,
-   producing a consistent visual size while preserving the entire image. */
-.work img {
-    display: block;
 
-    width: 100%;
-    max-width: 100%;
-    height: var(--work-image-height-sm);
-
-    object-fit: contain;     /* do not crop; preserve aspect ratio */
-    object-position: center;
-
-    background: var(--work-image-bg); /* visible padding area for portrait images */
-}
-
-.caption {
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 7px;
 }
 
 
