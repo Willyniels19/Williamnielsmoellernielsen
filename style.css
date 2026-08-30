@@ -10,6 +10,13 @@ body {
     padding: 0;
 }
 
+:root {
+    /* image sizing for works: smaller on mobile, larger on desktop */
+    --work-image-height-sm: 220px;
+    --work-image-height-lg: 340px;
+    --work-image-bg: #f6f6f6;
+}
+
 body {
     background: white;
     color: black;
@@ -59,19 +66,22 @@ main {
 
 .work {
     margin-bottom: 110px;
-    /* make sure parent doesn't clip images */
-    overflow: visible;
 }
 
+/* Make all images fit into a fixed-height box without cropping.
+   Portrait and landscape images will be centered and scaled to fit,
+   producing a consistent visual size while preserving the entire image. */
 .work img {
     display: block;
 
-    /* ensure images keep their aspect ratio and are not cropped */
     width: 100%;
     max-width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: var(--work-image-height-sm);
+
+    object-fit: contain;     /* do not crop; preserve aspect ratio */
     object-position: center;
+
+    background: var(--work-image-bg); /* visible padding area for portrait images */
 }
 
 .caption {
@@ -111,6 +121,10 @@ main {
     main {
         padding-left: 12vw;
         padding-right: 12vw;
+    }
+
+    .work img {
+        height: var(--work-image-height-lg);
     }
 
 }
