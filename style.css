@@ -59,13 +59,19 @@ main {
 
 .work {
     margin-bottom: 110px;
+    /* make sure parent doesn't clip images */
+    overflow: visible;
 }
 
 .work img {
     display: block;
 
+    /* ensure images keep their aspect ratio and are not cropped */
+    width: 100%;
     max-width: 100%;
     height: auto;
+    object-fit: contain;
+    object-position: center;
 }
 
 .caption {
