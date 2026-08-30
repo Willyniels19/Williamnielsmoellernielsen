@@ -108,3 +108,29 @@ main {
     }
 
 }
+
+
+/* name=style.css */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+/* Each work is a fixed-aspect box so all images have the same visual size */
+.work {
+  aspect-ratio: 4 / 3; /* keeps every box the same ratio; change to 16/9 or other if you prefer */
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #f8f8f8;
+  display: block;
+}
+
+/* Make the image fill the box and crop to fit */
+.work img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cover crops & fills without distortion */
+  display: block;
+}
