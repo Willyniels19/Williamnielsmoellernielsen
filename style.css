@@ -113,6 +113,13 @@ main {
     color: black;
 }
 
+.about-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 
 /* DESKTOP */
 
