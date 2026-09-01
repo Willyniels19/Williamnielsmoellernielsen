@@ -64,14 +64,8 @@ main {
     padding: 70px 16px 80px;
 }
 
-/* NOTE: make .work a responsive row on wider screens so image sits at the left
-   and the text/caption sits on the right. On small screens we keep a column flow. */
 .work {
     margin-bottom: 20px;
-
-    display: flex;
-    flex-direction: column; /* stacked on small screens */
-    gap: 12px;
 }
 
 /* Make all images fit into a fixed-height box without cropping.
@@ -85,31 +79,9 @@ main {
     height: var(--work-image-height-sm);
 
     object-fit: contain;     /* do not crop; preserve aspect ratio */
-    object-position: left center; /* prefer the left side of the image when placed in a box */
+    object-position: center;
 
     background: var(--work-image-bg); /* visible padding area for portrait images */
-}
-
-/* On larger screens place image left and text/caption to the right */
-@media (min-width: 700px) {
-    .work {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .work img {
-        flex: 0 0 45%; /* occupy ~45% of the row */
-        width: 45%;
-        height: var(--work-image-height-sm);
-        margin-right: 24px;
-    }
-
-    .work .caption,
-    .work p {
-        flex: 1 1 55%;
-        margin-top: 0;
-        text-align: left;
-    }
 }
 
 .caption {
