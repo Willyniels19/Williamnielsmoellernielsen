@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><em>Exercise II (wash drawing)</em>,2024 — William Niels Møller Nielsen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Selected works</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+
+    <div class="caption">
+      <span><em>Exercise II (wash drawing)</em>, 2024</span>
+      <span></span>
+    </div>
+    <p>bemalet styrofoam, træ, aluminium stang, ringe, plastik gitter, plastik perler, snor, ledning,</p>
+    <p>lampe, blyant, plexiglas, inkjet print af Herman Møller akvarel på syrefrit papir </p>
+    <p>Group Exhibition <em>Rundgang 2024</em>, Det jyske Kunstakademi, Aarhus, DK</p>
+    <p>19/1/24 - 25/1/24</p>
+
+    <div class="work">
+      <img src="images/images/Exercise_1.jpeg" alt="Work">
+    </div>
+
+    <div class="work">
+      <img src="images/images/Exercise_2.jpeg" alt="Work">
+    </div>
+
+    <div class="work">
+      <img src="images/images/Exercise_3.jpeg" alt="Work">
+      <div class="caption"></div>
+    </div>
+
+    <div class="work">
+      <img src="images/images/Exercise_4.jpeg" alt="Work">
+      <div class="caption"></div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
