@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><em>Perron Foyer (platform 1)</em>,2026 — William Niels Møller Nielsen</title>
+  <title><em>Rehearsall, 2024 — William Niels Møller Nielsen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,26 +17,42 @@
   <main>
 
     <div class="caption">
-      <span><em>Perron foyer (platform 1)</em>, 2026</span>
-      <span></span>
-    </div>
-    <p>Stentøj, beton, træ, maling, afdæknings tæppe, fimo ler, 
-    <p>led, bolsjer, 
-     <p> Rundgang 2026, Det jyske Kunstakademi, Aarhus, DK</p>
-    <p>23/1/26 - 26/1/26</p>
+                    <span><em>Rehearsal</em>, 2024</span>
+                    <span></span>
+                </div>
+                <p>Træ, væg maling, plastik perler, plexiglas, LED lys, hjul, 
+stål, skruer, kabler, forstærker, højtaler, stof, 
+grafit, 3d printede figurer</p>
+            </div>
+     Group Exhibition,<p> Shuffle, KH7, Aarhus, DK</p>
+    <p>1/3/24 - 24/3/24</p>
 
-    <div class="work">
-      <img src="images/images/2. Perron Foyer-kopi.jpg" alt="Work">
-    </div>
+  <div class="work">
+            <img src="images/images/rehearsal1.JPEG" alt="Rehearsal 1">
+            <div>
+                <div class="caption"><span></span><span></span></div>
+            </div>
+        </div>
 
-    <div class="work">
-      <img src="images/images/1. Perron Foyer.jpg" alt="Work">
-    </div>
+        <div class="work">
+            <img src="images/images/rehearsal2.JPEG" alt="Rehearsal 2">
+            <div>
+                <div class="caption"><span></span><span></span></div>
+            </div>
+        </div>
 
-    <div class="work">
-      <img src="images/images/3. Perron Foyer-kopi.jpg" alt="Work">
-      <div class="caption"></div>
-    </div>
+        <div class="work">
+            <img src="images/images/rehearsal3.JPEG" alt="Rehearsal 3">
+            <div>
+                <div class="caption"><span></span><span></span></div>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/images/rehearsal4.JPEG" alt="Rehearsal 4">
+            <div>
+                <div class="caption"><span></span><span></span></div>
+            </div>
 
 
   </main>
