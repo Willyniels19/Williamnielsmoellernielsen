@@ -25,19 +25,19 @@
     <p>19/1/24 - 25/1/24</p>
 
     <div class="work">
-      <img src="images/Exercise_1.jpeg" alt="Exercise II — view 1">
+      <img src="images/Exercise_1.jpeg" alt="Exercise II">
     </div>
 
     <div class="work">
-      <img src="images/Exercise_2.jpeg" alt="Exercise II — view 2">
+      <img src="images/Exercise_2.jpeg" alt="Exercise II">
     </div>
 
     <div class="work">
-      <img src="images/Exercise_3.jpeg" alt="Exercise II — detail 1">
+      <img src="images/Exercise_3.jpeg" alt="Exercise II">
     </div>
 
     <div class="work">
-      <img src="images/Exercise_4.jpeg" alt="Exercise II — detail 2">
+      <img src="images/Exercise_4.jpeg" alt="Exercise II">
     </div>
 
   </main>
