@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><em>Untitled (value and objects)</em>,2023 — William Niels Møller Nielsen</title>
+  <title>Untitled (value and objects), 2023 — William Niels Møller Nielsen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,32 +16,29 @@
 
   <main>
 
-  <div class="caption">
+    <div class="caption">
       <span><em>Untitled (value and objects)</em>, 2023</span>
       <span></span>
     </div>
-<p>Wood, sand, stone, rushes, sticks, keychain, photo print, ceramics
-    <p>
-     <p> Rundgang 2023, Det jyske Kunstakademi, Aarhus, DK</p>
+
+    <p>Wood, sand, stone, rushes, sticks, keychain, photo print, ceramics</p>
+    <p>Rundgang 2023, Det jyske Kunstakademi, Aarhus, DK</p>
     <p>18/1/23 - 21/1/23</p>
 
-
     <div class="work">
-      <img src="images/images/B1.png" alt="Work">
+      <img src="images/images/B1.png" alt="Untitled — view 1">
     </div>
 
     <div class="work">
-      <img src="images/images/B2.png" alt="Work">
+      <img src="images/images/B2.png" alt="Untitled — view 2">
     </div>
 
     <div class="work">
-      <img src="images/images/B3.png" alt="Work">
-      <div class="caption"></div>
+      <img src="images/images/B3.png" alt="Untitled — detail 1">
     </div>
 
     <div class="work">
-      <img src="images/images/B4.png" alt="Work">
-      <div class="caption"></div>
+      <img src="images/images/B4.png" alt="Untitled — detail 2">
     </div>
 
   </main>
