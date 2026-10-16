@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><em>Exercise II (wash drawing)</em>,2024 — William Niels Møller Nielsen</title>
+  <title>Exercise II (wash drawing), 2024 — William Niels Møller Nielsen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,8 +17,7 @@
   <main>
 
     <div class="caption">
-      <span><em>Exercise II (wash drawing)</em>, 2024</span>
-      <span></span>
+      <span>Exercise II (wash drawing), 2024</span>
     </div>
     <p>bemalet styrofoam, træ, aluminium stang, ringe, plastik gitter, plastik perler, snor, ledning,</p>
     <p>lampe, blyant, plexiglas, inkjet print af Herman Møller akvarel på syrefrit papir </p>
@@ -26,21 +25,19 @@
     <p>19/1/24 - 25/1/24</p>
 
     <div class="work">
-      <img src="images/images/Exercise_1.jpeg" alt="Work">
+      <img src="images/Exercise_1.jpeg" alt="Exercise II — view 1">
     </div>
 
     <div class="work">
-      <img src="images/images/Exercise_2.jpeg" alt="Work">
+      <img src="images/Exercise_2.jpeg" alt="Exercise II — view 2">
     </div>
 
     <div class="work">
-      <img src="images/images/Exercise_3.jpeg" alt="Work">
-      <div class="caption"></div>
+      <img src="images/Exercise_3.jpeg" alt="Exercise II — detail 1">
     </div>
 
     <div class="work">
-      <img src="images/images/Exercise_4.jpeg" alt="Work">
-      <div class="caption"></div>
+      <img src="images/Exercise_4.jpeg" alt="Exercise II — detail 2">
     </div>
 
   </main>
