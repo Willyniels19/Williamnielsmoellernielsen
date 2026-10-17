@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,29 +20,38 @@
     <div class="caption">
       <span>Exercise II (wash drawing), 2024</span>
     </div>
+
     <p>bemalet styrofoam, træ, aluminium stang, ringe, plastik gitter, plastik perler, snor, ledning,</p>
-    <p>lampe, blyant, plexiglas, inkjet print af Herman Møller akvarel på syrefrit papir </p>
+    <p>lampe, blyant, plexiglas, inkjet print af Herman Møller akvarel på syrefrit papir</p>
     <p>Group Exhibition <em>Rundgang 2024</em>, Det jyske Kunstakademi, Aarhus, DK</p>
     <p>19/1/24 - 25/1/24</p>
 
     <div class="work">
-      <img src="images/images/Exercise_1.jpeg" alt="Exercise II">
+      <a class="gateway" href="images/images/Exercise_1.jpeg" target="_blank">
+        <img src="images/images/Exercise_1.jpeg" alt="Exercise II — view 1">
+      </a>
     </div>
 
     <div class="work">
-      <img src="images/images/Exercise_2.jpeg" alt="Exercise II">
+      <a class="gateway" href="images/images/Exercise_2.jpeg" target="_blank">
+        <img src="images/images/Exercise_2.jpeg" alt="Exercise II — view 2">
+      </a>
     </div>
 
     <div class="work">
-      <img src="images/images/Exercise_3.jpeg" alt="Exercise II">
+      <a class="gateway" href="images/images/Exercise_3.jpeg" target="_blank">
+        <img src="images/images/Exercise_3.jpeg" alt="Exercise II — detail 1">
+      </a>
     </div>
 
     <div class="work">
-      <img src="images/images/Exercise_4.jpeg" alt="Exercise II">
+      <a class="gateway" href="images/images/Exercise_4.jpeg" target="_blank">
+        <img src="images/images/Exercise_4.jpeg" alt="Exercise II — detail 2">
+      </a>
     </div>
 
   </main>
 
 </body>
-
 </html>
+
