@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Is Music So heavy, 2024 — William Niels Møller Nielsen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Selected works</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+
+      <div class="caption">
+                    <span><em>Why Is Music So Heavy</em>, 2026</span>
+                    <span></span>
+                </div>
+               
+
+            </div>
+ Solo Exhibition,<p> Splab, Aarhus, DK</p>
+    <p>8/5/26 - 13/5/26</p>
+
+    <div class="work">
+      <img src="images/images/1.JPEG" alt="Exercise II">
+    </div>
+
+    <div class="work">
+      <img src="images/images/2.JPEG" alt="Exercise II">
+    </div>
+
+    <div class="work">
+      <img src="images/images/3.JPEG" alt="Exercise II">
+    </div>
+
+    <div class="work">
+      <img src="images/images/4.JPEG" alt="Exercise II">
+    </div>
+
+  </main>
+
+</body>
+
+</html>
