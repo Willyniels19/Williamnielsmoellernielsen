@@ -99,42 +99,7 @@ som er billedet som er på den her side, men hvor det foto skifter
        style="width: 400%; display: block; position: relative; left: 150px; opacity: 1; transition: opacity 0.5s ease;">
 </div>
 
-<script>
-  const slideshowImages = [
-    "images/images/Bulp.JPG",
-    "images/images/Images/foto1.JPG",
-    "images/images/Images/foto2.JPG",
-       "images/images/Images/foto3.JPG",
-       "images/images/Images/foto4.JPG",
-       "images/images/Images/foto5.JPG",
-  ];
 
-  const slideshow = document.getElementById("about-slideshow");
-  let currentIndex = 0;
-
-  setInterval(() => {
-    slideshow.style.opacity = 0;
-
-    setTimeout(() => {
-      currentIndex = (currentIndex + 1) % slideshowImages.length;
-
-      slideshow.onload = () => {
-        slideshow.style.opacity = 1;
-      };
-
-      slideshow.onerror = () => {
-        slideshow.style.opacity = 1;
-        console.error("Kunne ikke indlæse billedet:", slideshow.src);
-      };
-
-      slideshow.src = slideshowImages[currentIndex];
-    }, 500);
-
-  }, 5000);
-</script>
-
-
-      </div>
 
     </main>
 
