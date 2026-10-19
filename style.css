@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html { font-size: 12px; }
+html { font-size: 11px; }
 
 html,
 body {
@@ -24,7 +24,7 @@ body {
     color: black;
 
     font-family: Helvetica;
-    font-size: 12px;
+    font-size: 11px;
 
     line-height: 1.3;
 }
