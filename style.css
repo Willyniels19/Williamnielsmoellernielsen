@@ -13,19 +13,14 @@ body {
 }
 
 :root {
-    /* image sizing for works: smaller on mobile, larger on desktop */
-    --work-image-height-sm: 400px;
-    --work-image-height-lg: 600px;
     --work-image-bg: white;
 }
 
 body {
     background: white;
     color: black;
-
     font-family: Helvetica;
     font-size: 11px;
-
     line-height: 1.3;
 }
 
@@ -34,19 +29,13 @@ body {
 
 nav {
     position: fixed;
-
     top: 0;
     left: 0;
-
     width: 100%;
-
     display: flex;
     justify-content: space-between;
-
     padding: 14px 16px;
-
     background: white;
-
     z-index: 100;
 }
 
@@ -70,29 +59,29 @@ main {
     margin-bottom: 20px;
 }
 
-/* Make all images fit into a fixed-height box without cropping.
-   Portrait and landscape images will be centered and scaled to fit,
-   producing a consistent visual size while preserving the entire image. */
+/* Keep each image at its natural aspect ratio so captions have the same
+   gap from the visible image edge, including portrait images. */
 .work img {
     display: block;
-
     width: 100%;
     max-width: 100%;
-    height: var(--work-image-height-sm);
-
-    object-fit: contain;     /* do not crop; preserve aspect ratio */
+    height: auto;
+    object-fit: contain;
     object-position: center;
-
-    background: var(--work-image-bg); /* visible padding area for portrait images */
+    background: var(--work-image-bg);
 }
 
-.caption {
+.work .caption,
+.work .caption a,
+.work .caption span {
+    color: #000;
+    text-decoration: none;
+}
+
+.work .caption {
     display: flex;
     justify-content: space-between;
-
     margin-top: 7px;
-    color: black;
-    text-decoration: none;
 }
 
 
@@ -105,7 +94,6 @@ main {
 .about h1 {
     font-size: 10px;
     font-weight: normal;
-
     margin: 0 0 20px;
 }
 
@@ -125,27 +113,12 @@ main {
 }
 
 
-/* DESKTOP */
+/* Gateway page styles */
 
-@media (min-width: 900px) {
-
-    main {
-        padding-left: 12vw;
-        padding-right: 12vw;
-    }
-
-    .work img {
-        height: var(--work-image-height-lg);
-    }
-
-}
-
-/* Gateway button image cursor */
 .gateway img {
     cursor: pointer;
 }
 
-/* Banner page styles for the gateway pages */
 .banner-page .banner {
     height: 100vh;
     background-size: cover;
