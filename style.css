@@ -151,11 +151,10 @@ main {
 }
 
 
-/* Full-width work images on phones */
+/* Mobile spacing for images, captions, and About content */
 @media (max-width: 600px) {
     main {
-        padding-right: 0;
-        padding-left: 0;
+        padding: 70px 12px 80px;
     }
 
     .work img {
@@ -165,6 +164,9 @@ main {
 
     .work .caption {
         width: 100%;
-        padding: 0 16px;
+    }
+
+    main.about > div {
+        width: 100% !important;
     }
 }
