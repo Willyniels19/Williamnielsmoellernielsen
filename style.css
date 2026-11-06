@@ -71,6 +71,15 @@ main {
     background: var(--work-image-bg);
 }
 
+/* Keep full-size gallery images on project pages from stretching across
+   the entire screen. Works on the selected page have IDs; gallery items don't. */
+.work:not([id]) img {
+    width: auto;
+    max-width: min(100%, 900px);
+    max-height: 80vh;
+    margin-inline: auto;
+}
+
 .work .caption,
 .work .caption a,
 .work .caption span {
