@@ -59,25 +59,16 @@ main {
     margin-bottom: 20px;
 }
 
-/* Keep each image at its natural aspect ratio so captions have the same
-   gap from the visible image edge, including portrait images. */
+/* Use the same half-width image size on selected works and detail pages. */
 .work img {
     display: block;
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
     height: auto;
     object-fit: contain;
     object-position: center;
-    background: var(--work-image-bg);
-}
-
-/* Keep full-size gallery images on project pages from stretching across
-   the entire screen. Works on the selected page have IDs; gallery items don't. */
-.work:not([id]) img {
-    width: auto;
-    max-width: min(100%, 900px);
-    max-height: 80vh;
     margin-inline: auto;
+    background: var(--work-image-bg);
 }
 
 .work .caption,
