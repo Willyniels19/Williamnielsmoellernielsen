@@ -80,8 +80,9 @@ main {
 
 .work .caption {
     display: flex;
-    justify-content: space-between;
-    margin-top: 7px;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 7px auto 0;
 }
 
 
