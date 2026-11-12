@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Music note favicon">
+  <title>Music note favicon</title>
+  <g fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 20v58c-3-3-8-5-13-4-7 2-11 8-10 15 1 7 7 12 15 12 8 0 15-6 15-14V36l36-10v49c-3-3-8-5-13-4-7 2-11 8-10 15 1 7 7 12 15 12 8 0 15-6 15-14V13L28 20z"/>
+    <path d="M84 20v58c-3-3-8-5-13-4-7 2-11 8-10 15 1 7 7 12 15 12 8 0 15-6 15-14V36l36-10v49c-3-3-8-5-13-4-7 2-11 8-10 15 1 7 7 12 15 12 8 0 15-6 15-14V13L84 20z"/>
+    <path d="M26 98c16 14 42 14 58 0"/>
+  </g>
+</svg>
