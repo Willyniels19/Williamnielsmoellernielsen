@@ -13,28 +13,27 @@
       background-position:center 20%;
       background-repeat:no-repeat;
       font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      color:#fff;
+      color:#000;
     }
-    nav{position:fixed;top:20px;left:20px;right:20px;display:flex;justify-content:space-between;align-items:center;pointer-events:none}
+    nav{position:fixed;z-index:1;top:20px;left:20px;right:20px;display:flex;justify-content:space-between;align-items:center;pointer-events:none}
     /* fjern kasserne: ingen baggrund, ingen border-radius, mindre padding */
-    nav a{pointer-events:auto;color:#fff;text-decoration:none;padding:4px 6px;border-radius:0;transition:opacity .15s, transform .15s;font-weight:300;letter-spacing:0.02em}
+    nav a{pointer-events:auto;color:#000;text-decoration:none;padding:4px 6px;border-radius:0;transition:opacity .15s, transform .15s;font-weight:300;letter-spacing:0.02em}
     /* sæt font-size så den matcher selected.html (base i style.css er 12px) */
     nav a{font-size:11px}
     nav a.left{}
     nav a.right{}
     nav a:hover{opacity:0.85;transform:translateY(-1px)}
-    
+
+    .screen-link{position:fixed;inset:0;display:block;z-index:0}
     .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
     @media (max-width:520px){nav{top:12px;left:12px;right:12px}nav a{font-size:14px}}
   </style>
 </head>
 <body>
+  <a href="selected.html" class="screen-link" aria-label="Go to Selected works"><span class="visually-hidden">Enter site — Selected works</span></a>
   <nav>
     <a class="left" href="selected.html">Selected works</a>
     <a class="right" href="about.html">About</a>
   </nav>
-  <main>
-    <a href="selected.html" class="visually-hidden">Enter site — Selected works</a>
-  </main>
 </body>
 </html>
